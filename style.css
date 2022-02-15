@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* navbar styling */
+
+.navbar .navbar-body{
+    height: 110px;
+    background-color: #ff4e51;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .navbar-body .logo{
+    padding: 15px 200px;
+}
+
+.navbar .navbar-body .icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 200px;
+}
+
+.navbar .navbar-body .icons .icon-body{
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+}
+
+.navbar .navbar-body .icons .icon-body i{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.navbar .header{
+    height: 50px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar .header .header-logo i{
+    font-size: 25px;
+}
+
+.navbar .header .navlinks .links li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.navbar .header .navlinks .links li a{
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+#first{
+    border-bottom: 4px solid #fa9d51;
+}
+
+#second{
+    border-bottom: 4px solid
+    #48cced;
+}
+
+#third{
+    border-bottom: 4px solid #3fb8af;
+}
+
+#fourth{
+    border-bottom: 4px solid #99cc66;
+}
+
+#fifth{
+    border-bottom: 4px solid #f8d323;
+}
+
+.navbar .header .btn-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .header .btn-menu .primary-btn{
+    height: 31px;
+    width: 70px;
+    background-color: #ff4e51;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+}
+
+.navbar .header .btn-menu .secondary-btn{
+    width: 31px;
+    height: 31px;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.h h2 {padding-left: 85px;
+    align-items: left;
+     
+}
+.img-body .card {display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column;
+
+}
+.card-img img{
+width: 380px;
+height: 450px;
+margin-left: 20px;
+}
+.name{
+    padding-top: 10px;
+    padding-bottom: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: larger;
+}
+.img-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
